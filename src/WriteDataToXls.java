@@ -38,6 +38,7 @@ public class WriteDataToXls {
 
             Sheet sheet = workbook.getSheetAt(0); //Sheet object sheet is declared as the first sheet (index 0) of the workbook.
 
+            //use invoice ArrayList in ExcelIO and serviceArray ArrayList for each element of invoice
             Object[][] invoice = //creating an array (multiple "rows", 2 "columns") of varying data (String, int)
                     {
                             {"Windshield", 1900},
